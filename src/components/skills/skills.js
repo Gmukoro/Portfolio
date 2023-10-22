@@ -65,7 +65,9 @@ const Skills = () => {
           <img src={REACT} alt="React" className="skillBarImg" />
           <div className="skillBarText">
             <h2>React</h2>
-            <p>I also have a strong command of React.</p>
+            <p>
+              I also have a strong command of React. Excellent command of React
+            </p>
           </div>
         </div>
       </div>
