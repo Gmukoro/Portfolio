@@ -29,7 +29,7 @@
 
 .hello {
   font-size: 1.75rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .introName {
@@ -38,7 +38,7 @@
 
 .introPara {
   font-size: medium;
-  font-weight: 200;
+  font-weight: 300;
   /* letter-spacing: 1rem; */
 }
 
@@ -74,12 +74,24 @@
 
 @media screen and (max-width: 480px) {
   .bg {
-    right: -20vw;
+    right: -40vw;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .bg {
+    right: -100vw;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .bg {
+    right: -100vw;
   }
 }
 
 @media screen and (max-width: 280px) {
   .bg {
-    right: -40vw;
+    right: -70vw;
   }
 }

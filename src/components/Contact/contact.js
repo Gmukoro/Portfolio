@@ -5,9 +5,9 @@ import Adobe from "../../assets/adobe.png";
 import Microsoft from "../../assets/microsoft.png";
 import Facebook from "../../assets/facebook.png";
 import FacebookIcon from "../../assets/facebook-icon.png";
-import TwitterIcon from "../../assets/twitter.png";
+import XIcon from "../../assets/X.png";
 import YouTubeIcon from "../../assets/youtube.png";
-import instagramIcon from "../../assets/instagram.png";
+import LinkedInIcon from "../../assets/LinkedIn.png";
 import emailjs from "@emailjs/browser";
 
 const Contact = () => {
@@ -76,10 +76,27 @@ const Contact = () => {
             Submit
           </button>
           <div className="links">
-            <img src={FacebookIcon} alt="Facebook" className="link" />
-            <img src={TwitterIcon} alt="Twitter" className="link" />
-            <img src={YouTubeIcon} alt="YouTube" className="link" />
-            <img src={instagramIcon} alt="instagram" className="link" />
+            <a
+              href="https://web.facebook.com/mukoro.godspower.3?_rdc=1&_rdr"
+              target="blank"
+            >
+              <img src={FacebookIcon} alt="Facebook" className="link" />
+            </a>
+            <a href="https://twitter.com/Guspiloo" target="blank">
+              <img src={XIcon} alt="X" className="link" />
+            </a>
+            <a
+              href="https://web.facebook.com/mukoro.godspower.3?_rdc=1&_rdr"
+              target="blank"
+            >
+              <img src={YouTubeIcon} alt="YouTube" className="link" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/godspower-mukoro/"
+              target="blank"
+            >
+              <img src={LinkedInIcon} alt="LinkedIn" className="link" />
+            </a>
           </div>
         </form>
       </div>
