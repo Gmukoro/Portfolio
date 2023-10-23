@@ -6,7 +6,7 @@ import Microsoft from "../../assets/microsoft.png";
 import Facebook from "../../assets/facebook.png";
 import FacebookIcon from "../../assets/facebook-icon.png";
 import XIcon from "../../assets/X.png";
-import YouTubeIcon from "../../assets/youtube.png";
+import GitHub from "../../assets/Github.png";
 import LinkedInIcon from "../../assets/LinkedIn.png";
 import emailjs from "@emailjs/browser";
 
@@ -85,11 +85,8 @@ const Contact = () => {
             <a href="https://twitter.com/Guspiloo" target="blank">
               <img src={XIcon} alt="X" className="link" />
             </a>
-            <a
-              href="https://web.facebook.com/mukoro.godspower.3?_rdc=1&_rdr"
-              target="blank"
-            >
-              <img src={YouTubeIcon} alt="YouTube" className="link" />
+            <a href="https://github.com/Gmukoro" target="blank">
+              <img src={GitHub} alt="GitHub" className="link" />
             </a>
             <a
               href="https://www.linkedin.com/in/godspower-mukoro/"
