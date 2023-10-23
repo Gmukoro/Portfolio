@@ -48,7 +48,7 @@
   font-size: 1rem;
 }
 .worksBtn:hover {
-  background: yellow;
+  background: rgb(231, 231, 79);
 }
 
 @media screen and (max-width: 585px) {

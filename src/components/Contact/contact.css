@@ -75,6 +75,10 @@
   padding: 0.78rem 3.4rem;
 }
 
+.submitBtn:hover {
+  background: rgb(231, 231, 63);
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
